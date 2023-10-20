@@ -1,0 +1,50 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather App</title>
+<style>
+
+#fetchWeather{
+    
+    background-color: rgb(21, 208, 255);
+    
+    
+
+}
+#cityInput{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    align-items: center;
+}
+
+
+.abc{
+    padding-top: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+body{
+    
+    background-image: url('https://image.slidesdocs.com/responsive-images/background/gradient-sky-nature-overlay-cloudy-weather-powerpoint-background_81edb67a06__960_540.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+</style>
+</head>
+<body >
+<div id="app">
+    
+    <div class="abc">
+        <h1>WEATHER APP</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button id="fetchWeather">Get weather</button>
+    <div id="weatherResult">
+    </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+
+</body>
+</html>
